@@ -1,0 +1,24 @@
+body{
+
+
+}
+.center{
+    text-align: left;
+    background-color:rgb(46, 45, 45);
+    width: 20%;
+    padding-bottom: 80%;
+    display: inline-block;
+    border-style: double;
+    }
+#opcion{
+    color: white;
+    font-family: sans-serif;
+    font-size: 19px;
+
+
+    }
+.info{
+margin-left: 300px;
+background-color: rgb(6, 239, 247);
+
+}
