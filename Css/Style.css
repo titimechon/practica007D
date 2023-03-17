@@ -1,24 +1,26 @@
 body{
-
-
+    background-image: url(../Img/fondos.png);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 100vh;
 }
 .center{
-    text-align: left;
-    background-color:rgb(46, 45, 45);
-    width: 20%;
-    padding-bottom: 80%;
-    display: inline-block;
-    border-style: double;
-    }
-#opcion{
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 750;
+    display:flex;
+    height: 30px;
+}
+#opcion {
+    cursor: pointer;
+    margin-left: 120px;
     color: white;
-    font-family: sans-serif;
-    font-size: 19px;
-
-
-    }
-.info{
-margin-left: 300px;
-background-color: rgb(6, 239, 247);
-
+    text-decoration: none;
+}
+.informacion{
+    background-color: rgba(211, 211, 211, 0.672);
+    border-style: dashed;
+    margin: 0;
+    padding: 0;
 }
