@@ -83,34 +83,34 @@ nav ul {
 #img1{
     position: absolute;
     margin-top: 250px;
-    margin-left: 100px;
-    width: 19%;
+    margin-left: 25px;
+    width: 22%;
 }
 #img2{
     position: absolute;
     margin-top: 250px;
-    left: 36%;
-    width: 28%;
+    left: 40%;
+    width: 33%;
 }
 #img3{
     position: absolute;
     margin-top: 250px;
     left: 40px;
-    width: 400px;
+    width: 30%;
 }
 
 #nombre1{
     position: absolute;
-    margin-top: 35%;
-    margin-left: 220px;
+    margin-top: 45%;
+    margin-left: 100px;
     text-decoration: none;
     color: white;
     font-family: sans-serif;
 }
 #nombre3{
-    margin-top: 35%;
+    margin-top: 45%;
     position: absolute;
-    left: 200px;
+    left: 140px;
     text-decoration: none;
     color: white;
     font-family: sans-serif;
@@ -119,8 +119,8 @@ nav ul {
 }
 #nombre2{
     position: absolute;
-    margin-top: 550px;
-    left: 750px;
+    margin-top: 465px;
+    left: 550px;
     text-decoration: none;
     color: white;
     font-family: sans-serif;
