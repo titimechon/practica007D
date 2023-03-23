@@ -58,11 +58,12 @@ nav ul {
     
   }
 
-.info{
+  .info{
     color: rgb(255, 251, 251);
     position: absolute;
-    margin-left: 139px;
-    margin-top: 100px;
+    padding-top: 100px;
+    right: 10px;
+
 
 }
 #text{
@@ -80,48 +81,8 @@ nav ul {
     text-align: center;
 
 }
-#img1{
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 25px;
-    width: 22%;
-}
-#img2{
-    position: absolute;
-    margin-top: 250px;
-    left: 40%;
-    width: 33%;
-}
-#img3{
-    position: absolute;
-    margin-top: 250px;
-    left: 40px;
-    width: 30%;
-}
+#img{
+    width: 40%;
 
-#nombre1{
-    position: absolute;
-    margin-top: 45%;
-    margin-left: 100px;
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
-}
-#nombre3{
-    margin-top: 45%;
-    position: absolute;
-    left: 140px;
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
-    
-    
-}
-#nombre2{
-    position: absolute;
-    margin-top: 465px;
-    left: 550px;
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
+
 }
