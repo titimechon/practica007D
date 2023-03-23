@@ -61,8 +61,8 @@ nav ul {
 .info{
     color: rgb(255, 251, 251);
     position: absolute;
-    margin-left: 139px;
-    margin-top: 100px;
+
+    padding-top: 100px;
 
 }
 #text{
@@ -74,6 +74,6 @@ nav ul {
 }
 #gif{
     position: absolute;
-    margin-top: 200px;
+
     width: 32%;
 }
