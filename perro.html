@@ -1,63 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link  type="text/css" rel="stylesheet" href="Css/StyleGatos.css"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayuda a un peludo</title>
-    <link type="text/css" rel="stylesheet" href="css/estilos.css">
-    <style>
-        a{
-            color: rgb(0, 0, 0);
-            font-size: 150%;
-        }
-        #perroim{         
-            width: 300px;
-        }
-        p{
-            color: rgb(255, 0, 0);
-            font-size: 30px;
-        }
-        h1{
-            font-size: 40px;
-
-        }
-    </style>
-
-</head>
+    <title>Ayuda a un peludo </title>
 <body>
-    <a href="mascotas.html" > Inicio</a><br>
-    <center><h1>PERROS EN ADOPCION</h1></center>
-    <center><p>Nuestros perros que buscan una  familia</p></center> <br>
-    <table>
-        <tr>
-            <td>
-                <img id="perroim" src="img/pastor aleman.jpg">
-            </td>
-            <td>
-                <a href="perro1.html" target="_blank">Pastor Aleman</a>
-            </td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td>
-                <img id="perroim" src="img/husky.jpg">
-            </td>
-            <td>
-                <a href="perro2.html" target="_blank">Husky Siberiano</a>   
-            </td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td>
-                <img id="perroim" src="img/san bernardo.jpg" >
-            </td>
-            <td>
-                <a href="perro3.html" target="_blank">San Bernardo</a> 
-            </td>
-        </tr>
-    </table>
+    <nav>
+        <div class="container">
+            <!--fila 1-->
+            <div class="row">
+                <!--columna 1-->
+                <div class="col-md-12 col-sm-12" style="text-align: center;" >
+                    <ul>
+                        <li> <a href="mascotas.html">Inicio</a></li>
+                        <li> <a href="Gato.html">Gatos🐱</a></li>
+                        <li> <a href="perro.html">Perros🐶</a></li>
+                    <li>
+                        <a href="#">Contacto▼</a>
+                        <ul>
+                            <li><a href="#">+56 9 48159152</a></li>
+                        </ul>    
+                    </li>
+                    <li> 
+                        <a href="#">Nosotros</a>
+                    </li>
+                    </ul>
+                </div>
+                <!--colmuna 2-->
+                <div class="col-md-12 col-sm-12">
+                    <div class="info"> 
+                    <h1> Perros en adopcion</h1>
+                    </div>
+                </div>
+                <!--columna 3-->
+                <div class="col-md-12 col-sm-12">
+                    <h5 id="text"><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>
+                        when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen boo</h5>
+                </div>
+                <!---columna 4-->
+                <div class="col-md-4 col-sm-12">
+                    <img  id="img1" src="img/san bernardo.jpg" >
+                    <img  id="img2" src="img/husky.jpg">
+                    <img  id="img3" src="img/pastor aleman.jpg">
+                </div>
+                <!--columna 5-->
+                <div class="col-md-4 col-sm-12">
+                    <a  id="perro3" href="perro3.html"> <h1> Falko</h1></a>
+                    <a id="perro2" href="perro2.html"><h1> Thor </h1></a>
+                    <a id="perro1" href="perro1.html"><h1>Iskon</h1></a>
+                </div>
+
+            </div>
+            
+        </div>
+</nav>
 </body>
 </html>
