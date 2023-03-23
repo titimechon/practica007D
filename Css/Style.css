@@ -61,20 +61,15 @@ nav ul {
 .info{
     color: rgb(255, 251, 251);
     position: absolute;
-
     padding-top: 100px;
+    right: 10px;
+
 
 }
-#text{
-    color: rgb(255, 251, 251);
-    position: absolute;
-    margin-top: 170px;
-    text-align: center;
 
-}
 #gif{
-    margin-top: 200px;
-    width: 70%;
+    margin-top: 230px;
+    width: 69%;
     max-width: 500px;
 
 }
