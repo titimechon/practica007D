@@ -1,75 +1,73 @@
 body{
-    display: flex;
-    justify-content: center;
-    background: url(../Img/fondos.png);
+  display: flex;
+  justify-content: center;
+  background: url(../Img/fondos.png);
 }
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  nav ul li {
-    float: left;
-    position: relative;
-    background-color: rgba(5, 5, 5, 0.506);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  position: relative;
+  background-color: rgba(5, 5, 5, 0.506);
 
-    
-  }
-  nav ul li a {
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: rgb(255, 251, 251);
-    
-    
-    
-  }
-  nav ul li:hover > a {
-    background-color: rgb(245, 26, 26);
-    
-    
-    
-  }
-  nav ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    
-    
-    
-  }
-  nav ul ul li {
-    float: none;
-    width: 200px;
-    position: relative;
-    background-color: rgba(5, 5, 5, 0.423);
-    
-    
-  }
-  nav ul ul ul li {
-    position: static;
-    border-top: 1px solid rgb(255, 255, 255);
-    
-    
-  }
-  nav ul li:hover > ul {
-    display: inherit;
-    
-    
-  }
-
-.info{
-    color: rgb(255, 251, 251);
-    position: absolute;
-    padding-top: 100px;
-    right: 10px;
-
-
+  
+}
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(255, 251, 251);
+  
+  
+  
+}
+nav ul li:hover > a {
+  background-color: rgb(245, 26, 26);
+  
+  
+  
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  
+  
+  
+}
+nav ul ul li {
+  float: none;
+  width: 200px;
+  position: relative;
+  background-color: rgba(5, 5, 5, 0.423);
+  
+  
+}
+nav ul ul ul li {
+  position: static;
+  border-top: 1px solid rgb(255, 255, 255);
+  
+  
+}
+nav ul li:hover > ul {
+  display: inherit;
+  
+  
 }
 
-#gif{
-    margin-top: 230px;
-    width: 69%;
-    max-width: 500px;
+.info{
+  color: rgb(255, 251, 251);
+  margin-top: 50px;
+  text-align: center;
+
+}
+.gif{
+  
+  margin-top: 40px;
+  width: 500px;
+  max-height: 600px;
 
 }

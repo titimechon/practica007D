@@ -55,16 +55,13 @@ nav ul {
     
     
   }
-
-#Foto{
-    margin-top: 90px;
-    width: 400px;
-    max-height: 500px;
-    margin-left: 260px;
-}
-.datos{
+.info{
   color: rgb(255, 251, 251);
   font-family: fantasy;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
+  margin-top: 40px;
 }
+.gif{
+    max-height: 600px;
+  }
