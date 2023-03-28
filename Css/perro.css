@@ -71,13 +71,6 @@ nav ul {
 
 }
 
-#text2{
-    color: rgb(255, 251, 251);
-    position: absolute;
-    margin-top: 240px;
-    text-align: center;
-
-}
 .imgp1{
     
     width: 100%;
@@ -88,7 +81,7 @@ nav ul {
 }
 
 .separacion_img{
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
 }
 
