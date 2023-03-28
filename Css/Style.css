@@ -60,14 +60,12 @@ nav ul li:hover > ul {
 
 .info{
   color: rgb(255, 251, 251);
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
 
 }
 .gif{
-  
-  margin-top: 40px;
-  width: 450px;
-  max-height: 600px;
+  width: 400px;
+  max-height: 400px;
 
 }
