@@ -60,8 +60,8 @@ nav ul {
   font-family: fantasy;
   font-size: 20px;
   text-align: center;
-  margin-top: 40px;
-}
+  }
 .gif{
-    max-height: 600px;
+    max-height: 380px;
+    margin-left: 50px;
   }
